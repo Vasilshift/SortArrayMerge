@@ -37,15 +37,11 @@ public class SortMergeArray {
             targetindex++;
             remain--;
         }
-
-
     }
 
 
-
-
     public static void main(String[] args) {
-        int[] A = {5,2,4,6,3,1};
+        int[] A = {5,2,4,6,3,1,8,3};
         for (int i =0; i < A.length; i++) {
             System.out.print(A[i] + " ");
         }
